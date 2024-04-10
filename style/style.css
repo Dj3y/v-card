@@ -42,6 +42,17 @@ img {
     justify-content: flex-end;
 }
 
+input{
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(67, 63, 63);
+}
+
+input:hover{
+    background-color: black;
+}
 #cordonnees{
     width: 60%;
     margin: 0 auto;
@@ -57,7 +68,7 @@ img {
     padding: 10px;
     border-radius: 10px;
 }
-#cordonnees p, a{
+.infos{
     background-color: black;
     color: white;
     padding: 5px;
