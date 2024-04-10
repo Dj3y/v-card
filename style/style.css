@@ -1,0 +1,83 @@
+body {
+    /* background-image: url("/src/IMG-20180116-WA0023.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 20%;
+    background-position-x: 10%; */
+    /* width: 80%;
+    margin: 0 auto; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+    /* background-color: #e2d1c377; */
+    /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+    /* border-radius: 30px; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    width: 100px;
+    border-radius: 100px;
+    /* filter: grayscale(0); */
+    /* display: block; */
+    /* margin: 0 auto; */
+}
+/* img:hover {
+    filter: grayscale(20%);
+} */
+
+#a-propos{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#cordonnees{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#cordonnees div{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#cordonnees p, a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+h5{
+    margin: 0;
+    padding-right: 10px;
+    background-color: brown;
+}
+
+#phone {
+    display: inline;
+    /* padding-left: 0; */
+    
+}
+i{
+    padding: 20px;
+    color: white;
+    background-color: rgb(100, 94, 94);
+    border-radius: 30px;
+    /* width: 30px;   */
+}
